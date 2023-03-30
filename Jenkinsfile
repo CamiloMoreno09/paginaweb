@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'clone the repo'
                 bat 'rm-fr html'
-                bat 'git clone https://github.com/CamiloMoreno09/html.git'
+                bat 'git clone https://github.com/CamiloMoreno09/paginaweb.git'
             }
         }
     }
