@@ -3,7 +3,12 @@ pipeline {
     stages {
         stage('Clone the repo') {
             steps {
-                but 'git clone https://github.com/CamiloMoreno09/paginaweb.git'
+               git 'https://github.com/CamiloMoreno09/paginaweb.git'
+            }
+        }
+        stage('Do Things') {
+            steps {
+                 bat 'echo w00t!'
             }
         }
     }
