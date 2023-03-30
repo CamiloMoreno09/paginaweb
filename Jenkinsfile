@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone the repo') {
             steps {
-               git 'https://github.com/CamiloMoreno09/paginaweb.git'
+                 git https://github.com/CamiloMoreno09/html.git'
             }
         }
         stage('Do Things') {
