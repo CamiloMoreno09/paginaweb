@@ -12,7 +12,8 @@
                     <th><img src="escudo.jpg" width="200" height="200"></th>
                     <th><h1>Universidad Ecci</h1>
                         <h2>Menu de Aplicaciones</h2>
-                        <h2>Presentado por: Juan Camilo Moreno Rios - 94474</h2>
+                        <h2>Presentado por: Juan Camilo Moreno Rios</h2>
+                        <h2>Codigo: 94474</h2>
                     </th>
                     <th><img src="libro.jpg" width="200" height="200"></th>
                 </tr>
