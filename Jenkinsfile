@@ -1,14 +1,19 @@
 pipeline {
     agent any 
     stages {
-        stage('Clone the repo') {
+        stage('Cloning Git') {
             steps {
-                 git 'https://github.com/CamiloMoreno09/html.git'
+                git 'https://github.com/CamiloMoreno09/html.git'
             }
         }
-        stage('Do Things') {
+        stage('Build') {
             steps {
-                 bat 'echo w00t!'
+                bat 'npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat 'npm test'
             }
         }
     }
