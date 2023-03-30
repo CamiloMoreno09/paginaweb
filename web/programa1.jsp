@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Regsitro de Datos</title>
+        <title>Registro de Datos</title>
     </head>
     <body>
     <center><h1>Registro de Datos</h1></center>
