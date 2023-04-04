@@ -14,7 +14,8 @@
                     <th><img src="escudo.jpg" width="200" height="200"></th>
                     <th><h1>Universidad Ecci</h1>
                         <h2>Programacion Web 4AM</h2>
-                        <h2>Operaciones Matematicas</h2></th>
+                        <h2>Operaciones Matematicas</h2>
+                        <h2>Presentado por: Juan Camilo Moreno Rios</h2></th>
                     <th><img src="libro.jpg" width="200" height="200"></th>
                 </tr>
             </thead>
