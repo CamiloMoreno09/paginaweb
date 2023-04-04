@@ -25,12 +25,5 @@ pipeline {
          		sh "./gradlew jacocoTestCoverageVerification"
          	}
         }
-        stage('SonarQube analysis') {
-            steps {
-                withSonarQubeEnv('SonarQubePruebas') {
-                    sh './gradlew sonarqube'
-                }
-            }
-        }
     }
 }
